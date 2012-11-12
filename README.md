@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+=================
 Rbin's OctoFlask
 =================
 
@@ -8,7 +8,6 @@ It is written in Python - Flask, and uses MongoDB and MongoEngine.  It also uses
 
 Please feel free to Fork this or download it, change it and build/use it for your own small blog!
 
-P.S - THE NAME OCTO IS MINE. YOU CAN'T USE IT. (It's the name of my blog.)
 
 One downloaded, change any reference to 'your app name' from 'octo' if you would like to name it yourself.
 
@@ -51,7 +50,8 @@ This will take the SASS from your specified folder, and output it as <yourfile>.
 
 
 Sharing is caring!!  RBIN loves you.
-=======
+
+
+==========
 OctoFlask
-=========
->>>>>>> c08e2ef949cb8b3bf17299b88a88856c3b6b67c1
+==========
