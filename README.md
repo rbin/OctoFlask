@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Rbin's OctoFlask
 =================
 
@@ -50,3 +51,7 @@ This will take the SASS from your specified folder, and output it as <yourfile>.
 
 
 Sharing is caring!!  RBIN loves you.
+=======
+OctoFlask
+=========
+>>>>>>> c08e2ef949cb8b3bf17299b88a88856c3b6b67c1

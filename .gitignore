@@ -25,7 +25,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+<<<<<<< HEAD
 
 .sass-cache
 .DS_Store
 
+=======
+>>>>>>> c08e2ef949cb8b3bf17299b88a88856c3b6b67c1
