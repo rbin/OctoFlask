@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>OctoFlask</title>
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    
+    <meta content="Your Description..." name="description" />
+		<meta content="Your name..." name="author" />    
+		
+		<link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="/static/css/creator.css" rel="stylesheet" />
+    <script src="/static/js/chirp.min.js" type="text/javascript"></script>
+    
+<style type="text/css">
+/*<![CDATA[*/
+      body {
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+/*]]>*/
+</style>
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	</head>
+	
+  <body>
+   {%- block topbar -%}
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">OctoFlask</a>
+          <div class="nav-collapse collapse">
+
+            {%- block nav %}
+
+            <ul class="nav">
+              <li>
+                <a href="/">Articles</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                  Dropdown List!
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="http://twitter.com/rbin" target="_blank">@rbin on Twitter</a>
+                  </li>
+                  <li>
+                    <a href="http://github.com/rbin" target="_blank">Rbin on Github</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            {%- endblock -%}
+          </div>
+        </div>
+      </div>
+    </div>
+   {%- endblock -%}
+   
+
+   <section id="main"> 
+     {% block page_header %}{% endblock %}
+      {% block content %}{% endblock %}
+      <hr />
+   </section>
+   
+      
+      <footer id="footer">
+        <div class="footer container">
+					<p>
+						&copy; Your Name here...
+					</p>
+      </footer>  
+    
+    
+    <script src="/static/js/jquery-1.8.2.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

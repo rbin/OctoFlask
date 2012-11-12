@@ -1,0 +1,85 @@
+@overwrites bootstrap.css;
+#main, .footer {
+  padding: 20px; }
+
+.brand {
+  font-size: 22px !important;
+  padding-right: 30px !important; }
+
+.navbar .nav > li > a {
+  padding-right: 20px;
+  font-size: 15px !important;
+  color: #407589;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0px 1px 0px white; }
+
+.head {
+  padding: 0px !important; }
+
+.homeInner {
+  width: 640px;
+  float: left; }
+
+#sidebar {
+  width: 260px;
+  float: right;
+  height: auto;
+  margin-bottom: 80px; }
+
+#footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 40px;
+  background-color: silver;
+  border-top: 1px dashed #333333; }
+
+.footer p {
+  font-size: 13px;
+  color: #333333;
+  padding-left: 10px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold; }
+
+.handyTip {
+  color: #333333;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px 12px;
+  background-color: silver; }
+
+.latestTweets {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 14px; }
+
+.chirp {
+  clear: both;
+  float: right;
+  color: #333333;
+  font-size: 13px;
+  text-align: justify !important;
+  width: 245px; }
+
+hr {
+  margin: 45px auto;
+  width: 80%; }
+
+.chirp a {
+  color: #b7111e; }
+
+.chirp p {
+  margin-bottom: 0px !important;
+  margin-top: 15px; }
+
+.chirp .meta {
+  margin-top: 10px;
+  font-weight: bold; }
+
+#disqus_thread {
+  width: 70%;
+  margin-top: 25px; }
